@@ -24,6 +24,21 @@ let raDio = document.querySelectorAll("input[type='radio']");
 
 submitButton.addEventListener("click", button);
 
+//function button() {
+//  let inputName = document.getElementById("nameInput");
+//  let inputAge = document.getElementById("ageInput");
+//  let inputColor = document.getElementById("colorInput");
+//  let value = inputName.value;
+//  let ageValue = inputAge.value;
+//  let colorValue = inputColor.value;
+//  document.getElementById("outPut").textContent =
+//    "Your Name:" +
+//    value +
+//    "Your Age:" +
+//    ageValue +
+//    "Favorite Color:" +
+//    colorValue;
+
 function button() {
   let inputName = document.getElementById("nameInput");
   let inputAge = document.getElementById("ageInput");
@@ -32,10 +47,10 @@ function button() {
   let ageValue = inputAge.value;
   let colorValue = inputColor.value;
   document.getElementById("outPut").textContent =
-    "Your Name:" +
+    "Your Name: " +
     value +
-    "Your Age:" +
+    "      Your Age: " +
     ageValue +
-    "Favorite Color:" +
+    "         Favorite Color: " +
     colorValue;
 }

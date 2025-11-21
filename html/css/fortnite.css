@@ -11,6 +11,11 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
+p {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 #form-wrapper {
   margin-top: 80px;
   height: 450px;
