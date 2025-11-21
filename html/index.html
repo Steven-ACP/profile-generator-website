@@ -38,30 +38,12 @@
         <button type="button" id="submitBtn" class="q-confirm-button">Create Profile</button>
     </form>
 
+    <div class="q-title">Your Profile!</div>
+
     <p id="outPut"></p>
 
-    <!-- how the wbesite looks-->
 
-    <div ng-app="coolform" class="wrapper">
 
-        <div cool-form>
-            <div class="q-title">Your Profile!</div>
-            <div ng-repeat="q in questions" class="question">
-                <label>
-                    <span class="q-text">
-                        {{q.question}}
-                        <span class="q-answer">
-                            {{q.answer}}
-                        </span>
-                    </span>
-                    <input type="text" id="q{{$index}}" ng-model="q.answer">
-                    <span class="q-back" ng-click="open($index)">
-                        << /span>
-                </label>
-                <span class="q-next" ng-click="open($index+1)">></span>
-            </div>
-        </div>
-    </div>
     <script src="js/javascript.js"></script>
 
 </body>
