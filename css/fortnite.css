@@ -16,6 +16,17 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+label {
+  -ms-text-underline-position: over;
+  font-size: large;
+  font-style: italic;
+}
+
+option {
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 #form-wrapper {
   margin-top: 80px;
   height: 450px;
